@@ -1585,7 +1585,7 @@ function GridironGame() {
         </div>
         <div style={{display:"flex",flexDirection:"column",gap:10}}>
           <button style={btn("#E63946")} onClick={()=>startGame("vs-ai")}>🤖 Play vs AI</button>
-          <button style={btn("#3b82f6")} onClick={()=>startGame("two-player")}>👥 2 Players (Pass & Play)</button>
+          
           <button style={btn("#22c55e")} onClick={()=>setG(prev=>({...prev,phase:"online_lobby",mode:"online"}))}>🌐 Play Online</button>
         </div>
       </div>
